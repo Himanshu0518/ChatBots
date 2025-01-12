@@ -3,11 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Chatbot Integration</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-    <iframe width="350" height="430" allow="microphone;" src="https://console.dialogflow.com/api-client/demo/embedded/ecd53f48-878e-499b-8281-541102560992"></iframe>
-    
+    <div class="chat-container">
+        <h1>Welcome to Your Study Assistant</h1>
+        <p>Ask me anything about your study plan or other queries!</p>
+        <div class="iframe-container">
+            <iframe
+                allow="microphone;"
+                src="https://console.dialogflow.com/api-client/demo/embedded/ecd53f48-878e-499b-8281-541102560992"
+                title="Study Assistant"
+                width="350"
+                height="430">
+            </iframe>
+        </div>
+    </div>
 </body>
 </html>
